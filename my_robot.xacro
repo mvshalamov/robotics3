@@ -2,18 +2,18 @@
 
 <robot name="my_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
 <xacro:include filename="$(find my_robot)/urdf/my_robot.gazebo" />
-<link name="robot_footprint"></link>
+
 <gazebo reference="left_wheel">
-    <material>Gazebo/Yellow</material>
+    <material>Gazebo/Pink</material>
 </gazebo>
 
 <gazebo reference="right_wheel">
-    <material>Gazebo/Yellow</material>
+    <material>Gazebo/Pink</material>
 </gazebo>
-  
+  <link name="robot_footprint"></link>
 
 <gazebo reference="chassis">
-    <material>Gazebo/Red</material>
+    <material>Gazebo/Yellow</material>
 </gazebo>
 
 <gazebo reference="hokuyo">

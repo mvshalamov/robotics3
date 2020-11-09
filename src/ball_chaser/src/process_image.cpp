@@ -53,11 +53,11 @@ ROS_INFO("img go right:%1.2f", (float)j);
     } else {
       ROS_INFO("img go %1.2f, %1.2f, %1.2f", (float)left, (float)forward, (float)right );
       if (left) {
-        drive_robot(-0.1, 0.0);
+        drive_robot(-0.2, 0.0);
       } else if (right) {
-        drive_robot(0.1, 0.0);
+        drive_robot(0.2, 0.0);
       } else {
-        drive_robot(0.0, -0.2);
+        drive_robot(0.0, -0.4);
       }
     }
 
