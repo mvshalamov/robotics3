@@ -92,16 +92,6 @@
       <real_time>4945 299629991</real_time>
       <wall_time>1604653762 280250697</wall_time>
       <iterations>1542093</iterations>
-      <model name='ambulance'>
-        <pose frame=''>-2.17159 4.2351 0 0 0 -3.13979</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>-2.17159 4.2351 0 0 0 -3.13979</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
       <model name='building'>
         <pose frame=''>0.01839 -0.458464 0 0 -0 0</pose>
         <scale>1 1 1</scale>
